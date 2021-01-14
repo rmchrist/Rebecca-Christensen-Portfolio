@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+
+/* Logo Bar */
+
+
+.logo_image {
+	float: left;
+	display: inline-block;
+	max-height: 100px; max-width:200px;
+}
+
+.logo_image img {
+	display: inline-block;
+	max-width: 100%; max-height: 100px;
+	border: 1px red;
+}
+
+.logo_bar {
+	z-index: 2;
+	border-bottom: 2px solid;
+	border-color: #936a7a;
+	position: fixed;
+	top: 0;
+	left:0;
+	overflow: auto;
+	padding: 00px;
+	max-height: 100px;
+	width: 100%;
+	background-color: #c5bbba
+}
+
+.nav_bar {
+	margin-right:5px;
+	margin-bottom:5px;
+	height:28px;
+	background-color: #c5bbba;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	float: right;
+	display: inline-block;
+	
+}
+
+.logo_desc {
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.nav_profile {
+	background-color: #c5bbba;
+	padding:5px 5px 5px 10px;
+	display: inline-block;
+}
+
+.nav_projects {
+	background-color: #c5bbba;
+	padding:5px 5px 5px 10px;
+	display: inline-block;
+}
+
+.nav_about {
+	background-color: #c5bbba;
+	padding:5px 5px 5px 10px;
+	display: inline-block;
+}
+
+.nav_contact {
+	background-color: #c5bbba;
+	padding:5px 5px 5px 10px;
+	display: inline-block;
+}
+
+.nav_profile a {
+	color: #724759;
+	font-size: 18px;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-decoration: none
+}
+
+.nav_projects a {
+	color: #724759;
+	font-size: 18px;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-decoration: none
+}
+
+.nav_about a {
+	color: #724759;
+	font-size: 18px;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-decoration: none
+}
+
+.nav_contact a {
+	color: #724759;
+	font-size: 18px;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-decoration: none
+}
+
+a:hover { 
+	color: #260d17;
+
+}
+
+/* Profile Section */
+
+.profile_background {
+	border-bottom: 2px solid;
+	border-color: #733651;
+	margin-top:102px;
+	position: relative;
+	width: auto;
+	height: 800px;
+	background-image: url(../images/profile_body.jpg); 
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.profile_box {
+	border-radius: 50px;
+	border: 5px solid;
+	border-color: #733651;
+	background-color:rgba(115,54,81,0.85);
+	max-width: 400px;
+	height: 300px;
+	display: inline-block;
+	position: absolute;
+	top:0;
+	left: 0;
+	right:0;
+	bottom:0;
+	margin: 190px auto 300px auto;
+
+}
+
+.profile_name {
+	padding: 10px;
+	margin: 25px;
+	color: #efd7e1;
+	font-size: 30px;
+	text-align: center;
+	font-family:'Roboto Condensed', sans-serif;
+
+
+}
+
+.profile_desc {
+	padding: 10px;
+	margin: 15px;
+	color: #efd7e1;
+	font-size: 25px;
+	text-align: center;
+	font-family:'Roboto Condensed', sans-serif;
+
+}
+
+
+
+/* Projects Section */ 
+
+
+
+.project_background {
+	padding: 30px;
+	background-color: #825467; 
+}
+
+.project_wrapper {
+	overflow: auto;
+	border: 3px solid;
+	border-color: #733651 ;
+	padding: 20px; 
+	margin: auto;
+	max-width: 1050px;
+	background-color: #e1d6d6;
+	
+
+}
+
+.project_title h1 {
+	text-align: left;
+	padding-left: 30px;
+}
+.project_title { 
+	padding-top: 1px;
+	height: 55px;
+	margin-right: auto;
+	margin-left: auto;
+	width:200px;
+	background-image: url(../images/logo_plant.jpg.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	font-family:'Roboto Condensed', sans-serif;
+	color: #724759;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	text-align: center;
+
+ }
+
+
+
+
+.proj_col_left_Kelly {
+	display: block;
+	background-repeat: no-repeat;
+	background-image: url(../images/Kelly_Art.jpg);
+	background-size: 100%;
+	background-position: 0px;
+	margin: 5px;
+	border: 1px solid;
+	border-color: #733651;
+	float: left;
+	overflow: auto;
+	width: 40%;
+	height: 200px; }
+
+.proj_col_left_Foster {
+	display: block;
+	background-repeat: no-repeat;
+	background-image: url(../images/Kitten_foster.jpg);
+	background-size: 100%;
+	margin: 5px;
+	border: 1px solid;
+	border-color: #733651;
+	float: left;
+	overflow: auto;
+	width: 40%;
+	height: 200px; }
+
+.proj_col_left_Hanne {
+	display: block;
+	background-repeat: no-repeat;
+	background-image: url(../images/Hanne_Art.jpg);
+	background-size: 100%;
+	margin: 5px;
+	border: 1px solid;
+	border-color: #733651;
+	float: left;
+	overflow: auto;
+	width: 40%;
+	height: 200px;
+	
+}
+
+.Farm {
+	display: block;
+	background-repeat: no-repeat;
+	background-image: url(../images/leaffrey_farm.jpg);
+	background-size: 100%;
+	background-position: 0px;
+	margin: 5px;
+	border: 1px solid;
+	border-color: #733651;
+	float: left;
+	overflow: auto;
+	width: 40%;
+	height: 200px; }
+
+.proj_col_right {
+
+	box-shadow: 5px 10px 10px #936a7a;
+	background-color: rgba(223,163,224,0.7);
+	margin: 10px;
+	height: 192px;
+	width: 55%;
+	float: right;
+}
+
+.proj_col_right h1 {
+	color: #492736;
+	font-size: 20px;
+	text-align: center;
+	font-family:'Roboto Condensed', sans-serif;
+	margin: 10px;
+}
+
+.proj_col_right p {
+	color: #492736;
+	font-size: 15px;
+	text-align: left;
+	font-family:'Roboto Condensed', sans-serif;
+	margin: 10px;
+
+}
+
+
+/* About Style */
+
+.about_title { 
+	padding-top: 1px;
+	height: 55px;
+	margin-right: auto;
+	margin-left: auto;
+	width:200px;
+	background-image: url(../images/logo_plant.jpg.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	font-family:'Roboto Condensed', sans-serif;
+	color: #724759;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+
+ }
+
+.about_title h1 {
+	text-align: left;
+	padding-left: 30px;
+}
+
+.about_background {
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+	background-color: #825467; 
+}
+
+.about_wrapper {
+	overflow: auto;
+	border: 3px solid;
+	border-color: #733651 ;
+	padding: 20px; 
+	margin: auto;
+	max-width: 1050px;
+	background-color: #e1d6d6;
+	padding-bottom: 50px;
+}
+
+.about_image { 
+margin-right: 39%;
+margin-left: 39%;
+margin-bottom: 20px;
+ }
+
+
+.about_image img {
+	border: 3px solid;
+	border-color: #733651;
+	border-radius: 60px;
+	height: 230px;
+	width: 200px;
+}
+
+.about_desc {
+
+	border: 1px solid;
+	border-color: #733651;
+	box-shadow: 5px 10px 10px #936a7a;
+	background-color: rgba(223,163,224,0.7);
+	margin: auto;
+	height: 170px;
+	width: 55%;
+	padding: 10px;
+}
+
+
+.about_desc p {
+	color: #492736;
+	font-size: 18px;
+	text-align: center;
+	font-family:'Roboto Condensed', sans-serif;
+	margin: 10px;
+
+
+}
+
+
+/* Contact Style */ 
+
+.contact_title { 
+	padding-top: 1px;
+	height: 55px;
+	margin-right: auto;
+	margin-left: auto;
+	width:200px;
+	background-image: url(../images/logo_plant.jpg.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	font-family:'Roboto Condensed', sans-serif;
+	color: #724759;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+
+ }
+
+.contact_title h1 {
+	text-align: left;
+	padding-left: 30px;
+}
+
+.contact_background {
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+	background-color: #825467; 
+	}	
+
+.contact_wrapper {
+	overflow: auto;
+	border: 3px solid;
+	border-color: #733651 ;
+	padding: 20px; 
+	margin: auto;
+	max-width: 1050px;
+	background-color: #e1d6d6;
+	padding-bottom: 50px;
+	margin-bottom:50px;
+}
+
+.contact_desc {
+
+	border: 1px solid;
+	border-color: #733651;
+	box-shadow: 5px 10px 10px #936a7a;
+	background-color: rgba(223,163,224,0.7);
+	margin: auto;
+	height: 170px;
+	width: 55%;
+	padding: 10px;
+}
+
+
+.contact_desc p {
+	color: #492736;
+	font-size: 18px;
+	text-align: center;
+	font-family:'Roboto Condensed', sans-serif;
+	margin: 10px;
