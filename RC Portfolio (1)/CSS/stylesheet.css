@@ -20,7 +20,7 @@
 
 .logo_bar {
 	z-index: 2;
-	border-bottom: 2px solid;
+	border-bottom: 3px solid;
 	border-color: #936a7a;
 	position: fixed;
 	top: 0;
